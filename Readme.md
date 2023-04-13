@@ -13,11 +13,11 @@ The example demonstrates how to create [ObjectDataSource](https://learn.microsof
 
 ![Grid](grid.png)
 
-The [ObjectDataSource](https://learn.microsoft.com/en-us/previous-versions/57hkzhy5(v=vs.140)) object supports the `SelectCountMethod` and `SelectMethod` methods. Implement the methods to return the number of all records and records for the current page.
+The [ObjectDataSource](https://learn.microsoft.com/en-us/previous-versions/57hkzhy5(v=vs.140)) object supports `SelectCountMethod` and `SelectMethod` methods. Implement the methods to return the number of all records and records for the current page.
 
 To enable server-side paging, set the [DataSourceForceStandardPaging](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridBase.DataSourceForceStandardPaging) property to `true`.
 
-Note that in this case, our advanced paging capabilities are turned off and the following grid features are not supported: summary calculation, data grouping, data filtering, unbound data (unbound columns), compound (complex) properties, endless paging mode, conditional formatting.
+Note that in this case, our advanced paging capabilities are turned off and the following grid features are not supported: summary calculation, data grouping, data filtering, unbound data (unbound columns), compound (complex) properties, endless paging mode, and conditional formatting.
 
 ## Files to Review
 
