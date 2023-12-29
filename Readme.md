@@ -11,9 +11,6 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # How to bind ASPxGridView to an ObjectDataSource with EnablePaging
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128537859/)**
-<!-- run online end -->
 
 
 <p>The example demonstrates how to create <a href="http://msdn.microsoft.com/en-us/library/57hkzhy5.aspx"><u>ObjectDataSource</u></a> with select parameters to allow ASPxGridView to perform paging and sorting using SQL queries to a database server. It is possible to enable server-side paging using the <a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxGridViewASPxGridView_DataSourceForceStandardPagingtopic"><u>ASPxGridView.DataSourceForceStandardPaging</u></a> property.</p><p><strong><br />
